@@ -1,0 +1,12 @@
+{
+  "dataVersion": "bbr-cc0-2026-bc9554ef16",
+  "latestSeason": 2026,
+  "players": 5416,
+  "franchises": 53,
+  "files": {
+    "players": "players.json",
+    "franchises": "franchises.json",
+    "careers": "careers.json",
+    "history": "history.json"
+  }
+}
