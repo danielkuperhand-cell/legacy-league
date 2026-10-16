@@ -7,3 +7,37 @@ spatial processing. Additional CC0 audio: "Indoor adult murmur, large group.wav"
 by SpliceSound (https://freesound.org/people/SpliceSound/sounds/260123/), and
 "Booing Crowd" by NeoSpica (https://freesound.org/people/NeoSpica/sounds/504621/).
 CC0: https://creativecommons.org/publicdomain/zero/1.0/.
+
+
+SOUND EFFECTS AND NUMBERED TAKES (added October 2026)
+Every file below was trimmed (loudest window by RMS envelope), faded, loudness-normalised and encoded to MP3 for the game.
+
+CC BY credits (required):
+- media/crowd/boo-2.mp3: "Crowd_Booing" by unchaz (https://freesound.org/people/unchaz/sounds/150952/), licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Edited for the game: trimmed to 3.6 s, faded, level-normalised.
+- media/crowd/oooh-1.mp3: "Disappointed_Crowd" by unchaz (https://freesound.org/people/unchaz/sounds/150956/), licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Edited for the game: trimmed to 2.6 s, faded, level-normalised.
+- media/arena/horn.mp3: "Air Horn" by Mike Koenig (https://soundbible.com/1542-Air-Horn.html), licensed under https://creativecommons.org/licenses/by/3.0/. Edited: trimmed to 1.5 seconds with a short fade-out, level-normalised.
+
+CC0 provenance (no attribution required; courtesy credit):
+- media/crowd/roar-2.mp3 (trimmed to 4.5 s from 0.29 s, faded, level-normalised): "crowd roar.WAV" by jonsept (https://freesound.org/people/jonsept/sounds/449915/), licensed CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game; trimmed, faded and level-adjusted as applicable.
+- media/crowd/roar-3.mp3 (trimmed to 4.5 s from 407.51 s, faded, level-normalised): "basketball_crowd_noise_01.wav" by joedeshon (https://freesound.org/people/joedeshon/sounds/264291/), licensed CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game; trimmed, faded and level-adjusted as applicable.
+- media/crowd/cheer-2.mp3 (trimmed to 5.5 s from 0.00 s, faded, level-normalised): "applause.wav" by cognito perceptu (https://freesound.org/people/cognito%20perceptu/sounds/57587/), licensed CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game; trimmed, faded and level-adjusted as applicable.
+- media/crowd/murmur-2.mp3 (trimmed to 30.0 s from 70.00 s, faded, level-normalised; made into a seamless 30 s loop (equal-power 2 s crossfade)): "basketball_crowd_noise_01.wav" (a quiet section) by joedeshon (https://freesound.org/people/joedeshon/sounds/264291/), licensed CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game; trimmed, faded and level-adjusted as applicable.
+- media/crowd/oooh-2.mp3 (trimmed to 2.6 s from 6.37 s, faded, level-normalised): "Crowd Oooh.wav" by deleted_user_2104797 (https://freesound.org/people/deleted_user_2104797/sounds/324890/), licensed CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game; trimmed, faded and level-adjusted as applicable.
+- media/crowd/gasp.mp3 (trimmed to 2.0 s from 0.22 s, faded, level-normalised): "small crowd gasp shock surprise" by HowardV (https://freesound.org/people/HowardV/sounds/264376/), licensed CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game; trimmed, faded and level-adjusted as applicable.
+- media/arena/whistle.mp3 (trimmed to 1.5 s from 0.08 s, faded, level-normalised): "Referee whistle blow, gymnasium.wav" by SpliceSound (https://freesound.org/people/SpliceSound/sounds/218318/), licensed under https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game as described.
+- media/arena/squeak.mp3 (trimmed to 0.4 s from 0.00 s, faded, level-normalised): "basketball shoes.wav" by conradts, Freesound (https://freesound.org/people/conradts/sounds/190558/). CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- media/arena/bounce.mp3 (trimmed to 0.3 s from 0.00 s, faded, level-normalised): "BasketballBounce.wav" by Blankened, Freesound (https://freesound.org/people/Blankened/sounds/505628/). CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- media/arena/swish.mp3 (trimmed to 0.5 s from 0.00 s, faded, level-normalised): "Basketball Swish" by vhschool2019, Freesound (https://freesound.org/people/vhschool2019/sounds/716930/). CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- media/arena/clank.mp3 (trimmed to 0.8 s from 1.71 s, faded, level-normalised): "basketball.wav" by reedhos, Freesound (https://freesound.org/people/reedhos/sounds/244348/). CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- media/arena/backboard.mp3 (trimmed to 0.7 s from 0.00 s, faded, level-normalised): "Basketball backboard.wav" by PerMagnusLindborg, Freesound (https://freesound.org/people/PerMagnusLindborg/sounds/324247/). CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- media/casino/shuffle.mp3 (trimmed to 2.4 s from 0.16 s, faded, level-normalised): "Card shuffling.mp3" by SomeoneCool15, Freesound (https://freesound.org/people/SomeoneCool15/sounds/423767/). CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- media/casino/chips.mp3 (stack variants 1,3,2,4,1 sequenced over 1.2 s): "chips-stack-1.ogg" to "chips-stack-4.ogg" from Casino Audio 1.1 by Kenney Vleugels (https://kenney.nl/assets/casino-audio). CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- media/casino/roulette-spin.mp3 (trimmed to 2.8 s from 0.00 s, faded, level-normalised): "spin_sound.wav" by takecoins, Freesound (https://freesound.org/people/takecoins/sounds/588351/). CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- media/casino/slot-win.mp3 (trimmed to 1.4 s from 0.00 s, faded, level-normalised): "jingles_STEEL02.ogg" from Music Jingles by Kenney Vleugels (https://kenney.nl/assets/music-jingles). CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- media/arena/charge-2.mp3 (fanfare opening phrase x3 rising 0/+2/+4 st, then the full fanfare +5 st): "Victory Fanfare (fanfare1.wav)" by ARoachIFoundOnMyPillow (https://opengameart.org/content/victory-fanfare), licensed under https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game as described.
+- media/arena/snaps.mp3 (original 4-bar groove at 105 bpm from the one snap sample, per-hit pitch +-0.6 st, L/R pan, early reflections): "snap_of_the_fingers1.wav (Snap of the fingers sounds)" by Vinrax (https://lpc.opengameart.org/node/23650), licensed under https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game as described.
+- media/arena/stompclap.mp3 (stomp (body percussion @2.80s + percussion-loop drum @2.82s) and clap (@37.80s), original 4-bar pattern at 88 bpm, 3 layered takes per hit): "Todepa 1" by sergibox (https://freesound.org/people/sergibox/sounds/171293/), licensed under https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game as described.
+- media/arena/stompclap.mp3 (stomp (body percussion @2.80s + percussion-loop drum @2.82s) and clap (@37.80s), original 4-bar pattern at 88 bpm, 3 layered takes per hit): "Cinematic percussion loop (Cinematic percussion loop 2.wav)" by Marwan Antonios (https://opengameart.org/content/cinematic-percussion-loop), licensed under https://creativecommons.org/publicdomain/zero/1.0/. Edited for the game as described.
+
+Original stand-ins: media/arena/snaps.mp3, media/arena/stompclap.mp3 and media/arena/charge-2.mp3 are new arrangements
+made for this game from the CC0 sources named above. They are not recordings or recreations of any existing song or theme.
