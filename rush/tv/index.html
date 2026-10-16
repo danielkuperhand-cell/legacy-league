@@ -1,3 +1,23 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Dynasty Rush TV</title><meta name="viewport" content="width=device-width,initial-scale=1">
-<script>location.replace('../' + (location.hash && /tv=/.test(location.hash) ? location.hash : '?tv=1' + location.hash));</script></head>
-<body style="background:#0b1220;color:#fff;font-family:system-ui"><a href="../?tv=1" style="color:#f5c542">Open TV mode</a></body></html>
+<!doctype html><html><head><meta charset="utf-8"><title>Dynasty Rush TV</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<script>
+// The /rush/tv address (tvfix): plain ES3-safe JS so any smart-TV browser gets through. It forwards to the game in
+// TV mode, keeping the query (?net=, ?peerhost=) and the code (#tv=ABCD, ?code=ABCD, /tv/ABCD typed by hand).
+(function () {
+  var l = window.location, p = l.pathname, s = l.search || '', h = l.hash || '';
+  var base = p.replace(/\/tv(\/.*)?$/i, '/');
+  if (base === p) base = p.replace(/[^\/]*$/, '');
+  var code = (h + '&' + s).match(/(?:tv|code|join)=([A-Za-z]{4})(?![A-Za-z])/);
+  var tail = p.match(/\/tv\/([A-Za-z]{4})\/?$/i);
+  var c = code ? code[1] : tail ? tail[1] : '';
+  var mirror = /mirror=1/.test(h + s) ? '&mirror=1' : '';
+  var q = s.replace(/[?&](tv|code|join|mirror)=[^&]*/g, '').replace(/^&/, '?');
+  var to = base + q + '#tv=' + (c ? c.toUpperCase() : '1') + mirror;
+  try { l.replace(to); } catch (e) { l.href = to; }
+  window.__to = to;
+})();
+</script></head>
+<body style="background:#0b1220;color:#fff;font-family:sans-serif;font-size:4vh;text-align:center;padding-top:30vh">
+<a id="go" href="../#tv=1" style="color:#f5c542">Open Dynasty Rush TV</a>
+<script>try { document.getElementById('go').href = window.__to; } catch (e) {}</script>
+</body></html>
