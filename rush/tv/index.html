@@ -10,8 +10,8 @@
   var code = (h + '&' + s).match(/(?:tv|code|join)=([A-Za-z]{4})(?![A-Za-z])/);
   var tail = p.match(/\/tv\/([A-Za-z]{4})\/?$/i);
   var c = code ? code[1] : tail ? tail[1] : '';
-  var mirror = /mirror=1/.test(h + s) ? '&mirror=1' : '';
-  var q = s.replace(/[?&](tv|code|join|mirror)=[^&]*/g, '').replace(/^&/, '?');
+  var mirror = (/mirror=1/.test(h + s) ? '&mirror=1' : '') + (/kiosk=1/.test(h + s) ? '&kiosk=1' : '');
+  var q = s.replace(/[?&](tv|code|join|mirror|kiosk)=[^&]*/g, '').replace(/^&/, '?');
   var to = base + q + '#tv=' + (c ? c.toUpperCase() : '1') + mirror;
   try { l.replace(to); } catch (e) { l.href = to; }
   window.__to = to;
